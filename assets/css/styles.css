@@ -437,6 +437,12 @@ img{
         text-align: initial;
         padding: 4rem 0;
     }
+    .text__container{
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+        text-align: initial;
+        padding: 4rem 0;
+    }
     .about__img{
         width: 200px;
         height: 200px;
