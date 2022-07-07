@@ -248,6 +248,11 @@ img{
 .about__social-icon:hover{
     color: var(--first-color);
 }
+.experience__container{
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    column-gap: 2rem;
+}
 
 /* ===== SKILLS =====*/
 .skills__container{
